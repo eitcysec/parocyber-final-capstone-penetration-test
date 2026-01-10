@@ -74,13 +74,10 @@ Target networks:
 - Kali Linux
 - DVWA
 - Nmap
-- SQLMap
-- Hydra / John the Ripper
 - smbclient
 - Wireshark
 - Web Browser Developer Tools
 
-(Full list in `tools-used.md`)
 
 ---
 
