@@ -1,3 +1,8 @@
+# Challenge 2: Web Server Vulnerabilities 
+
+In this part, you must find vulnerabilities on an HTTP server. Misconfiguration of a web server can allow for the listing of files contained in directories on the server. You can use any of the tools you learned in earlier labs to perform reconnaissance to find the vulnerable directories.
+In this challenge, you will locate the flag file in a vulnerable directory on a web server.
+
 # Step 1: Preliminary setup
 
 Log into the server at 10.5.5.12 with the admin / password credentials
