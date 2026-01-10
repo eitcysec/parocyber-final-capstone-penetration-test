@@ -2,7 +2,7 @@
 
 In this part, you must discover user account information on a server and crack the password of Bob Smith's account. You will then locate the file with Challenge 1 code and use Bob Smith's account credentials to open the file at 192.168.0.10 to view its contents.
 
-# Step 1:Preliminary setup
+## Step 1:Preliminary setup
 **Open a browser and go to the website at 10.5.5.12.**
 
 <img width="832" height="428" alt="image" src="https://github.com/user-attachments/assets/6e9f3b48-a3a9-45bc-99c3-62984643008f" />
@@ -15,7 +15,7 @@ In this part, you must discover user account information on a server and crack t
 
 <img width="383" height="305" alt="image" src="https://github.com/user-attachments/assets/fc0638ec-c06a-4c7d-a972-0ac2a9bd7f43" />
 
-# Step 2: Retrieve the user credentials for the Bob Smith’s account
+## Step 2: Retrieve the user credentials for the Bob Smith’s account
 
 Identify the table that contains usernames and passwords
 
@@ -29,7 +29,7 @@ To retrieve the password for the user Bob, we use the payload: `1' OR 1=1 UNION 
 
 <img width="1605" height="765" alt="image" src="https://github.com/user-attachments/assets/ed6b811b-6bdb-4565-bde8-e030ba838bda" />
 
-# Step 3: Crack Bob Smith’s account password
+## Step 3: Crack Bob Smith’s account password
 
 We will use [crackstation](https://crackstation.net/) to crack the hash
 
@@ -39,7 +39,7 @@ The password of Bob Smith’s account:
 
 <img width="1603" height="160" alt="image" src="https://github.com/user-attachments/assets/cc3a6e1b-16c3-4d3f-b161-cd27689f40ee" />
 
-# Step 4: Locate and open the file with Challenge 1 code
+## Step 4: Locate and open the file with Challenge 1 code
 
 Log into 192.168.0.10 as Bob Smith through SSH
 
@@ -53,7 +53,7 @@ What is the message contained in the file?
 
 <img width="733" height="217" alt="image" src="https://github.com/user-attachments/assets/414b8208-aa6c-4087-9bc4-80424c7a41b6" />
 
-# Step 5: Research and propose SQL attack remediation
+## Step 5: Research and propose SQL attack remediation
 
 What are five remediation methods for preventing SQL injection exploits?
 
