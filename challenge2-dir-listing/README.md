@@ -3,7 +3,7 @@
 In this part, you must find vulnerabilities on an HTTP server. Misconfiguration of a web server can allow for the listing of files contained in directories on the server. You can use any of the tools you learned in earlier labs to perform reconnaissance to find the vulnerable directories.
 In this challenge, you will locate the flag file in a vulnerable directory on a web server.
 
-# Step 1: Preliminary setup
+## Step 1: Preliminary setup
 
 Log into the server at 10.5.5.12 with the admin / password credentials
 
@@ -13,7 +13,7 @@ Set the application security level to low
 
 <img width="993" height="643" alt="image" src="https://github.com/user-attachments/assets/352d5f06-519d-4df4-a45a-9a7dfae39068" />
 
-# Step 2: From the results of your reconnaissance, determine which directories are viewable using a web browser and URL manipulation
+## Step 2: From the results of your reconnaissance, determine which directories are viewable using a web browser and URL manipulation
 
 Perform reconnaissance on the server to find directories where indexing was found using Nikto
 Command: `nikto -h 10.5.5.12`
@@ -24,7 +24,7 @@ Which directories can be accessed through a web browser to list the files and su
 
 <img width="1257" height="784" alt="image" src="https://github.com/user-attachments/assets/9b63f242-0b9b-402d-a75c-f8bd17fcec96" />
 
-# Step 3: View the files contained in each directory to find the db_form.html file.
+## Step 3: View the files contained in each directory to find the db_form.html file.
 
 Create a URL in the web browser to access the viewable subdirectories. Find the file with the code for Challenge 2 located in one of the subdirectories
 
@@ -42,7 +42,7 @@ What is the message contained in the flag file?
 
 <img width="250" height="63" alt="image" src="https://github.com/user-attachments/assets/2720ff54-5ffc-405f-91c6-4dc62dc2c9e2" />
 
-# Step 4: Research and propose directory listing exploit remediation
+## Step 4: Research and propose directory listing exploit remediation
 
 What are two remediation methods for preventing directory listing exploits?
 
